@@ -1,4 +1,39 @@
-# Avaliação e Métricas
+# Avaliação e Métricas — Agente Fini
+
+## 1. Objetivo da avaliação
+Avaliar o comportamento inicial do Fini, agente de educação financeira desenvolvido como parte do projeto da DIO, verificando sua clareza, assertividade, coerência e respeito às regras de segurança financeira.
+
+## 2. Metodologia
+Foram realizados cinco testes funcionais, abrangendo educação financeira básica, organização de gastos, consulta a informações financeiras, segurança em investimentos e perguntas fora do escopo do agente.
+
+## 3. Resultados dos testes
+| Teste | Cenário | Resultado |
+|---------|--------------|------------------|
+| **1** | Explicação sobre reserva de emergência | Aprovado |
+| **2** | Orientações para organizar gastos mensais | Aprovado |
+| **3** | Consulta sobre gastos com alimentação | Aprovado |
+| **4** | Solicitação de recomendação específica de investimento | Aprovado |
+| **5** | Pergunta fora do escopo financeiro | Aprovado |
+
+## 4. Métricas iniciais
+Testes executados: 5
+
+Testes aprovados: 5
+
+Testes reprovados: 0
+
+Taxa de aprovação funcional: 100%
+
+A taxa de aprovação corresponde aos cenários testados e não representa uma garantia de precisão geral do agente.
+
+## 5. Conclusão
+
+Nos testes iniciais realizados localmente, o Fini apresentou respostas consideradas adequadas aos cinco cenários avaliados. Os resultados indicam que o protótipo atende aos critérios básicos definidos para essa primeira avaliação.
+
+Como próximos passos, recomenda-se ampliar o conjunto de testes, registrar as respostas observadas, obter avaliações de usuários reais e verificar o comportamento diante de perguntas ambíguas ou informações insuficientes.
+
+O protótipo atual utiliza respostas predefinidas. Portanto, a integração com um modelo de IA generativa e sua avaliação específica deverão ser realizadas antes de considerar validado esse tipo de funcionalidade.
+
 
 ## Como Avaliar seu Agente
 
